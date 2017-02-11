@@ -1,0 +1,27 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="ISO-8859-1"> 
+<title>Delete item</title> 
+<script>
+window.location.hash="no-back- button";
+window.location.hash="Again-No -back-button";//again because google chrome don't insert first hash into history
+window.onhashchange=function() 
+{
+    window.location.hash="no-back -button";
+}
+</script>
+</head>
+<body background='1111.PNG'>
+<center><h1><font color="white">REMOVE ITEM</font></h1> 
+</br></br></br></br>
+<form method="post" name="delete" action="addserv">
+Item Name:<input type="text" name="iname" >
+</br> 
+Quantity:&nbsp;&nbsp;<input type="text" name="quantity" >
+</br> </br></br></br></br>
+<center><input type="submit" value="Remove"></br></center> 
+</center>
+</form>
+</body>
+</html>

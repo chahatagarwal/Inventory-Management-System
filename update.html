@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>update item</title>
+<script>
+window.location.hash="no-back- button";
+window.location.hash="Again-No -back-button";//again because google chrome don't insert first hash into history
+window.onhashchange=function() 
+{
+    window.location.hash="no-back -button";
+}
+</script>
+</head>
+<body background='1111.PNG'>
+<center>
+</br></br>
+<h1><font color="white">UPDATE</font></h1>
+</br>
+<form method="post" name="add" action="updateserv">
+Item Name:<input type="text" name="uiname" placeholder="Enter ItemName" required >
+</br> 
+Price:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="iprice" placeholder="Enter Price" required></br>
+&nbsp;&nbsp;
+Quantity:<input type="text" name="qty" placeholder="Enter Quantity" required></center>
+</br></br></br></br>
+<center><input type="submit" value="Update"></br>
+</center> 
+</form>
+</body>
+</html>

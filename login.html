@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1"> 
+<title>Login</title>
+<script>
+window.location.hash="no-back- button";
+window.location.hash="Again-No -back-button";//again because google chrome don't insert first hash into history
+window.onhashchange=function() 
+{
+    window.location.hash="no-back -button";
+}
+</script> 
+</head>
+<body background='1111.PNG'> 
+<center><h1><font color="white">Subiksha's</font></h1>
+<form method="post" name="login" action="valid" >
+<i><font color="white"><b>UserName</b></font></i>
+<input type="text" name="uname" id="username" placeholder="Enter Username" required/><br><br>
+<i><font color="white"><b>Password</b></font></i>
+<input type="password" name="pwd" id="password" placeholder="Enter Password" required/><br><br>
+<input type="submit" name="login" id="submit" value="Login" /> 
+</form>
+</center>
+</body>
+</html>
